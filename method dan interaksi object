@@ -1,0 +1,14 @@
+class people:
+    nama = ""
+
+    def perkenalan(self):
+        print(f"Halo nama saya {self.nama}")
+
+    def hello(self, nama):
+        print(f"Halo {self.nama}, nama saya {nama}")
+
+
+people = people()
+people.nama = "uyab"
+people.perkenalan()
+people.hello("Fadlan")
